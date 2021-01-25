@@ -4,22 +4,22 @@
 ## Motivation:
 It's a test project for a junior web developer offer at Thermohuman company.
 
-## Technology/Framework Used:
+## Technology Used : 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Technology Used : 
-
-- SPA in React.
+- SPA in React. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - Auth0 for authentication.
 - Bootstrap for layout.
 - Formik for forms.
 - Momentjs.
 
+
 ## Installation:
 Here you need to provide the steps to get the project running.
 
+
 ## How to use:
 Include steps to provide details about how to use your project.
+
 
 ## Screenshot
 Add some screenshots for Logo or home page of site (if any).
