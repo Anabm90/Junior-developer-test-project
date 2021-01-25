@@ -13,17 +13,15 @@ It's a test project for a junior web developer offer at Thermohuman company.
 - Momentjs.
 
 
-## Installation:
-Here you need to provide the steps to get the project running.
-
-
-## How to use:
-Include steps to provide details about how to use your project.
+## Installation & how to use:
+Here you need to provide the steps to get the project running:
+  - Clone the repository.
+  - Install all the dependencies.
+  - Run it.
 
 
 ## Screenshot
 Add some screenshots for Logo or home page of site (if any).
-
 
 
 
