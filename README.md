@@ -2,39 +2,38 @@
 
 
 ## Motivation:
-Provide description of reason behind the creation of project. How it will be helpful for others.
+It's a test project for a junior web developer offer at Thermohuman company.
 
-## Build Status:
-Provide Build status of project as per result on Continuous Integration tool like Jenkins.
+## Technology/Framework Used:
 
-#Code Style:
-Here you need to provide the Code style being used in your project. It will help others to contribute in the same format. For example, Code Style: Standard.
-
-#Screenshot
-Add some screenshots for Logo or home page of site (if any).
-
-#Technology/Framework Used: Provide here Technology and Framework is used in your project. For Example:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Technology Used : Java, TestNG, Selenium, Maven
-Framework Used: Page Object Model
-Features:
-Here you need to add features of your project. For Example: This project will help Automation Testing Companies to test their application using automation to reduce the manual time.
+Technology Used : 
 
-#Installation:
+- SPA in React.
+- Auth0 for authentication.
+- Bootstrap for layout.
+- Formik for forms.
+- Momentjs.
+
+## Installation:
 Here you need to provide the steps to get the project running.
 
-
-How to use:
+## How to use:
 Include steps to provide details about how to use your project.
 
-Contribute:
-Provide the description about what people can add in your project.
+## Screenshot
+Add some screenshots for Logo or home page of site (if any).
 
-Credits:
-Provide links to the repository which inspired you to develop project.
 
-License:
-A short description about the license.
+
+
+## Credits:
+- Auth0 Docs: https://auth0.com/docs/
+- Formik docs: https://formik.org/
+- React Bootstrap docs: https://react-bootstrap.github.io/
+- Momentjs: https://momentjs.com/
+
+
 
 
 
