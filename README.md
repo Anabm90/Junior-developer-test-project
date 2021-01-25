@@ -20,11 +20,6 @@ Here you need to provide the steps to get the project running:
   - Run it.
 
 
-## Screenshot
-Add some screenshots for Logo or home page of site (if any).
-
-
-
 ## Credits:
 - Auth0 Docs: https://auth0.com/docs/
 - Formik docs: https://formik.org/
