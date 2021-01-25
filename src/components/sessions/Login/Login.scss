@@ -1,0 +1,17 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+    p {
+        text-align: center;
+        justify-content: center;
+    }
+    button {
+        margin-top: 50vh;
+        margin-left: calc(50vw - 107.5px);
+        padding: 15px;
+        background-color:  rgb(217, 236, 217) !important;
+        border-color:  rgb(217, 236, 217) !important;
+    }
+}

@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Router, Route, Switch } from 'react-router-dom';
+import { useAuth0 } from '@auth0/auth0-react';
+import history from './utils/history';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Index from './pages/index/Index.js';
+import Profile from './pages/profile/Profile';
+import Hello from './pages/hello/Hello';
+import Layout from './components/layout/Layout';
+
+const App = () => {
+	// const { isLoading, error } = useAuth0();
+
+	// if (error) {
+	// 	return <div>Oops... {error.message}</div>;
+	// }
+
+	// if (isLoading) {
+	// 	return <p>Loading...</p>;
+	// }
+	const { isAuthenticated } = useAuth0();
+
+	return (
+		<Router history={history}>
+			<div id="app">
+				<Switch>
+					<Route path="/" exact component={Index} />
+					<Layout>
+						<Route path="/profile" component={Profile} />
+						<Route path="/hello" component={Hello} />
+					</Layout>
+				</Switch>
+			</div>
+		</Router>
+	);
+};
 
 export default App;

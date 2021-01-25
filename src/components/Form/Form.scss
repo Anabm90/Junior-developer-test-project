@@ -1,0 +1,18 @@
+.email, 
+.username,
+.last,
+.connection {
+    margin: 15px;
+
+    input{
+        width: 190px;
+    }
+}
+
+@media (max-width: 767px) {
+  img {
+      padding: 30px;
+  }
+
+  
+}
