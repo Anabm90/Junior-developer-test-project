@@ -2,9 +2,10 @@
     height: 50vh;
     
     margin-top: 6vh;
-    background-color:rgb(240, 250, 240);
-
+    
     .basic-form {
+        background-color:rgb(224, 241, 224);
+        padding: 50px;
 
         .who {
             padding: 40px;
@@ -27,17 +28,21 @@
             
             button {
                 padding: 10px 15px;
-                margin: 10px;
-
-               
+                margin: 10px;   
             }
              button.submit {
-                    background-color:grey !important;
+                    background-color:black !important;
                     border-color: grey !important;
+                    &:disabled {
+                     background-color: grey !important;
+                    }
                 }
             button.exit {
                     background-color: green !important;
                     border-color: green !important;
+                    &:disabled {
+                     background-color: grey !important;
+                    }
             }
         }
     }

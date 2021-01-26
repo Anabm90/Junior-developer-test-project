@@ -1,18 +1,7 @@
-// import React from 'react';
-
-// export default function Profile() {
-// 	return (
-// 		<div>
-// 			<p>Soy el perfil del userrr</p>
-// 		</div>
-// 	);
-// }
-
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useAuth0, withAuthenticationRequired } from '@auth0/auth0-react';
 
-import Layout from '../../components/layout/Layout';
 import Form from '../../components/Form';
 import Spinner from '../../components/shared/Spinner.js';
 
