@@ -9,7 +9,11 @@ import './Profile.scss';
 
 export const ProfileComponent = () => {
 	const { user } = useAuth0();
-
+	let date = user.updated_at;
+	console.log(date);
+	var moment = require('moment');
+	let formatDate = moment(date).format('DD/MM/YYYY');
+	console.log(formatDate);
 	return (
 		<main>
 			<Container className="profile">
@@ -21,7 +25,7 @@ export const ProfileComponent = () => {
 						<Form
 							user={user.nickname}
 							email={user.email}
-							last={user.updated_at}
+							last={formatDate}
 							connection={user.logins_count}
 						/>
 					</Col>
