@@ -1,4 +1,4 @@
-# Junior developer test proyect
+# Junior developer test proyect 🚀
 
 
 ## Motivation:
@@ -10,14 +10,21 @@ It's a test project for a junior web developer offer at Thermohuman company.
 - Auth0 for authentication.
 - Bootstrap for layout.
 - Formik for forms.
-- Momentjs.
+- Momentjs for dates. 
 
 
 ## Installation & how to use:
-Here you need to provide the steps to get the project running:
-  - Clone the repository.
-  - Install all the dependencies.
-  - Run it.
+
+  - Clone this repository.
+  - Go to the root in your CLI.
+  - Install all the dependencies, with your package manager:
+  ```
+  $ yarn
+  ```
+  - Run it. It'll open a new tab on your browser with the SPA running locally:
+  ```
+  $ yarn start
+  ```
 
 
 ## Credits:
