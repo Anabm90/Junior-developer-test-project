@@ -1,8 +1,8 @@
-# Junior developer test proyect
+# Junior developer test proyect 🚀
 
 
 ## Motivation:
-It's a test project for a junior web developer offer at Thermohuman company.
+_It's a test project for a junior web developer offer at Thermohuman company.
 
 ## Technology Used : 
 
