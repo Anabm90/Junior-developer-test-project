@@ -18,8 +18,10 @@ It's a test project for a junior web developer offer at Thermohuman company.
   - Clone this repository.
   - Go to the root in your CLI.
   - Install all the dependencies, with your package manager:
+  
         ```yarn```
   - Run it. It'll open a new tab on your browser with the SPA running locally:
+  
   ```yarn start```
 
 
