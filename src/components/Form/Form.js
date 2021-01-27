@@ -17,26 +17,26 @@ const Form = (props) => (
 			<Row className="profile-form">
 				<form onSubmit={handleSubmit}>
 					<Row className="email">
-						<Col xs={12} md={6}>
+						<Col xs={10} md={5}>
 							<p>Email:</p>
 						</Col>
-						<Col xs={12} md={6}>
+						<Col xs={10} md={5}>
 							<input type="email" name="email" value={values.email} readOnly="readOnly" />
 						</Col>
 					</Row>
 					<Row className="username">
-						<Col xs={12} md={6}>
+						<Col xs={10} md={5}>
 							<p>Username:</p>
 						</Col>
-						<Col xs={12} md={6}>
+						<Col xs={10} md={5}>
 							<input type="username" name="username" value={values.username} readOnly="readOnly" />
 						</Col>
 					</Row>
 					<Row className="last">
-						<Col xs={12} md={6}>
+						<Col xs={10} md={5}>
 							<p>Last visit:</p>
 						</Col>
-						<Col xs={12} md={6}>
+						<Col xs={10} md={5}>
 							<input type="last" name="last" value={values.last} readOnly="readOnly" />
 						</Col>
 					</Row>

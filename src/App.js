@@ -1,6 +1,5 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
-import { useAuth0 } from '@auth0/auth0-react';
 import history from './utils/history';
 
 import './App.css';

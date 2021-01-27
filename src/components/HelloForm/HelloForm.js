@@ -1,8 +1,9 @@
-import { React, useState } from 'react';
+import { React } from 'react';
 import { Formik } from 'formik';
+
 import history from '../../utils/history';
 
-import { Container, Row, Button, Col } from 'react-bootstrap';
+import { Container, Row, Button } from 'react-bootstrap';
 import './HelloForm.scss';
 
 function Hello() {

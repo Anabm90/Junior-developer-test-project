@@ -1,13 +1,21 @@
-.email, 
-.username,
-.last,
-.connection {
-    margin: 15px;
+.profile-form{
+    justify-content: center;
 
-    input{
-        width: 190px;
+
+    .email, 
+    .username,
+    .last,
+    .connection {
+        margin: 15px;
+        justify-content: center;
+        input{
+            width: 190px;
+            font-size: 0.8em;
+        }
     }
 }
+
+
 
 @media (max-width: 767px) {
   img {

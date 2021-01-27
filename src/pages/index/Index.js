@@ -6,20 +6,19 @@ import Login from '../../components/sessions/Login';
 import Layout from '../../components/layout/Layout'
 
 
-export default () => {
+export default function Index () {
 
     const { isAuthenticated } = useAuth0()
+
     return (
         <>
-            
             {isAuthenticated ? 
                 
                 <Layout />    
                 :
                 <Login />
             }
-            
         </>
-    
+
     )
 };

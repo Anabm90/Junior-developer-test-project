@@ -1,10 +1,10 @@
 import React from 'react';
-import Nav from './Nav/Nav'
 
-import { useAuth0 } from '@auth0/auth0-react';
+import Nav from './Nav/Nav'
 import LogoutButton from '../sessions/LogoutButton';
 
 import './Layout.scss'
+
 
 const Layout = ({ children }) => {
    

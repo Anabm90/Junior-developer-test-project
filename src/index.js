@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import history from './utils/history';
-import * as serviceWorker from './serviceWorker';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom';
+import * as serviceWorker from './serviceWorker';
+import { Auth0Provider } from '@auth0/auth0-react';
 
 import App from './App';
-import { Auth0Provider } from '@auth0/auth0-react';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // const onRedirectCallback = (appState) => {
 // 	history.push(appState && appState.returnTo ? appState.returnTo : window.location.pathname);
