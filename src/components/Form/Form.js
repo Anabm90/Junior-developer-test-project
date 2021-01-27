@@ -40,14 +40,14 @@ const Form = (props) => (
 							<input type="last" name="last" value={values.last} readOnly="readOnly" />
 						</Col>
 					</Row>
-					<Row className="connection">
+					{/* <Row className="connection">
 						<Col xs={12} md={6}>
 							<p>Number of logins:</p>
 						</Col>
 						<Col xs={12} md={6}>
-							<input type={'number'} name="connection" value={values.connection} readOnly="readOnly" />
+							<input type="number" name="connection" value={values.connection} readOnly="readOnly" />
 						</Col>
-					</Row>
+					</Row> */}
 				</form>
 			</Row>
 		)}

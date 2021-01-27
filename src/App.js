@@ -11,17 +11,6 @@ import Hello from './pages/hello/Hello';
 import Layout from './components/layout/Layout';
 
 const App = () => {
-	// const { isLoading, error } = useAuth0();
-
-	// if (error) {
-	// 	return <div>Oops... {error.message}</div>;
-	// }
-
-	// if (isLoading) {
-	// 	return <p>Loading...</p>;
-	// }
-	const { isAuthenticated } = useAuth0();
-
 	return (
 		<Router history={history}>
 			<div id="app">

@@ -7,9 +7,7 @@ import LogoutButton from '../sessions/LogoutButton';
 import './Layout.scss'
 
 const Layout = ({ children }) => {
-    // const { isAuthenticated } = useAuth0()
-    
-
+   
     return(
             <>
                 <header>
